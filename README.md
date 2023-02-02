@@ -21,22 +21,29 @@ Makes the Capture attack cost basically nothing and insta delete anything. Chang
 | after  | -5  | -1 | 800 | 200 | 100 |
 
 
-## Goddess Ceri
+## Goddess Ceri + Sylvi (+ Yomi in the future?)
 
-Cranks up Ceri's stats and resists far beyond even a late game Ceri. She should be invincable and unstoppable. Changes the `actors.tsv` file.
+*TODO* add Yomi but avoid making the Yomi battles in `level0_chat.rpy` against the op yomi.
 
-*WIP*
+*TODO* upload modified actors.tsv
+
+Cranks up Ceri and Sylvi's stats and resists far beyond even any lategame enemies. Adds new abilities to Sylvi. They should be invincable and unstoppable. Changes the `actors.tsv` file. Edit the values in the tsv file as you see fit.
 
 
-## Goddess Sylvi
+| name           | vit | agi | mnt | str | dex | res | physical | poison | air | fire | ice | shock | skills                              | abilities                   |
+|----------------|-----|-----|-----|-----|-----|-----|----------|--------|-----|------|-----|-------|-------------------------------------|-----------------------------|
+| Ceri (before)  | 2   | 1   | 1   | 2   | 1   | 2   | 1        | 0      | 0   | 0    | 0   | 0     | guard,standard_sword_slash,sparks   | Capacity,Grappler,Fortitude |
+| Ceri (after)   | 32  | 48  | 20  | 40  | 36  | 36  | 2        | 2      | 4   | 3    | 2   | 2     | guard,standard_sword_slash,sparks   | Capacity,Grappler,Fortitude |
+| Sylvi (before) | 2   | 3   | 4   | 2   | 3   | 2   | 0        | 2      | 1   | 1    | 1   | 1     | guard,whip_attack,ice_flash,combust | Recovery                    |
+| Sylvi (after)  | 30  | 48  | 40  | 20  | 36  | 36  | 2        | 4      | 2   | 1    | 2   | 3     | guard,whip_attack,ice_flash,combust | Recovery,Capacity,Parry     |
 
-Cranks up Sylvi's stats and resists to insane levels like with Ceri, and also adds a few abilities. She should be invincable and unstoppable. Changes the `actors.tsv` file.
 
-*WIP*
+
+
 
 ## Cheap shop
 
-Makes everything in the shop cost next to nothing.
+Makes everything in the shop cost next to nothing. *(optional)* Also modifies `base.rpy` to allow shop to 
 
 *WIP*
 
