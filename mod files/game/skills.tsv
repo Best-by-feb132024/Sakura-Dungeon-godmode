@@ -1,0 +1,66 @@
+	name	type	attr	target	ap	cp	power	hit	critical	sfx	gfx	grid	info 	height
+guard	Guard	guard	none	self	0	0	0	0	0			0	Recovers Action Point (AP)	960
+healing_light	Meditation	heal	none	self	-15	2	0	0	0	healing_light	healing_light	42	Cures statuses and gives concentration power (CP)	1320
+														
+standard_sword_slash	Single Slash	melee	physical	one	-15	0	12	120	30	standard_sword_slash	standard_sword_slash	15	A single slash, done with a sharp object	
+impact	Impact	melee	physical	one	-15	0	12	120	30	impact	impact	12	An attack which uses something to bludgeon an opponent	
+claw_slash	Claw Slash 	melee	physical	one	-15	0	12	120	30	claw_slash	claw_slash	10	A series of scratches, made with claws	
+sparks	Triple Slashes	melee	physical	one	-25	0	19	110	30	cross_slashes	sparks	21	A quick succession of blows made with a cutting weapon	840
+flurry_of_punches	Flurry of Blows	melee	physical	one	-25	0	19	110	30	flurry_of_punches	flurry_of_punches	31	A number of blunt attacks made in quick succession	
+rapid_claw	Rapid Claws	melee	physical	one	-25	0	19	110	30	rapid_claw	rapid_claw	26	A rapid, animalistic attack done with sharpened claws	
+ef90	Dancing Blade	melee	physical	one	-35	0	24	100	30	ef90	ef90	34	A graceful, dance-like slash with a sharp weapon	
+very_powerful_punch	Smashing Blow	melee	physical	one	-35	0	24	100	30	very_powerful_punch	very_powerful_punch	42	The user puts all of their strength into their fist, inflicting heavy damage	
+biting_attack	Biting Attack	melee	physical	one	-35	0	24	100	30	biting_attack	biting_attack	24	A nasty biting attack	
+berserk	Berserk	melee	physical	one	-40	0	26	90	30	berserk	berserk	29	The user lets go of all finesse and wildly attacks their target	
+whip_attack	Shot	ranged	physical	one	-15	0	12	120	30	swords_attack2	whip_attack	12	An attack made with a long ranged weapon	
+ef83	Arrows	ranged	physical	one	-25	0	19	110	30	ef83	ef83	35	A simple attack made with a bow	1200
+hurl_boulder	Hurl Boulder	ranged	physical	one	-35	0	24	100	30	hurl_boulder	hurl_boulder	67	Through a great feat of strength, the user flings a large stone at their target	1200
+														
+demons_claws	Venom Claws	melee	poison	one	-25	0	19	110	10	demon_claws	demons_claws	20	The user viciously attacks, their claws imbued with demon-like ferocity	
+ef86	Venom Shot	ranged	poison	one	-15	0	12	120	10	ef86	ef86	15	A bolt of venom is launched at the target, damaging and potentially poisoning them	
+ash_cloud	Poison Breath	ranged	poison	one	-30	0	22	100	10	ash_cloud	ash_cloud	32	The user breaths out toxic fumes, damaging and poisoning enemies	720
+black_flames	Poison Dust	magic	poison	one	-15	0	12	120	10	black_flames	black_flames	26	The user spreads poisonous dust into the air, damaging a target	
+poison_bolt	Poison Bolt	magic	poison	one	-25	0	19	110	10	poison_bolt	poison_bolt	36	The user launches a bolt of poison at a target, damaging them	1200
+gravel_throw	Toxic Bomb	magic	poison	wide	-35	-1	24	100	10	gravel_throw	gravel_throw	40	This deadly attack causes an explosion of poisonous gas, damaging multiple targets	
+														
+tornado_slashes	Tornado Slashes	melee	air	one	-25	0	19	120	20	tornado_slashes	tornado_slashes	32	The user imbues their weapon with elemental air before delivering a devastating slash	
+dust_blast	Dust Blast	ranged	air	one	-15	0	12	130	20	dust_blast	dust_blast	31	Summons a powerful gale that kicks up dust at a target	
+ef87	Air Cutter	ranged	air	one	-30	0	22	110	20	ef87	ef87	33	With the use of vacuums, the user cuts their opponent with the very air	
+gust	Gust	magic	air	one	-15	0	12	130	20	gust	gust	22	A powerful gust of wind is summoned, striking a target	
+whirlwind	Whirlwind	magic	air	one	-25	0	19	120	20	whirlwind	whirlwind	20	A swirling wind is summoned, striking a target	720
+tornado	Tornado	magic	air	wide	-35	-1	24	110	20	tornado	tornado	36	A powerful, magical storm is summoned, striking multiple targets for wind damage	
+														
+fire_slash	Fire Slash	melee	fire	one	-30	0	24	100	20	fire_slash	fire_slash	14	The user imbues their weapons with elemental fire before delivering a devastating slash	1080
+dragons_breath	Fire Breath	ranged	fire	one	-35	0	26	100	20	dragons_breath	dragons_breath	38	The user breathes fire, damaging a single target	840
+ef91	Missile Launcher	magic	fire	wide	-50	0	28	90	20	ef91	ef91	38	A high explosive ordnance is launched from the demolitionist's cannon, dealing devastating fire damage to multiple targets	
+fire_twist	Fire Twist	magic	fire	one	-20	0	18	110	20	fire_twist	fire_twist	26	Twisting flames wrap around the target, damaging them	840
+combust	Combust	magic	fire	one	-30	0	24	100	20	combust	combust	34	The target suffers from spontaneous combustion, damaging them	840
+rings_of_flames	Rings of Flames	magic	fire	wide	-40	-1	28	90	20	rings_of_flames	rings_of_flames	54	A whirlwind of fire is conjured, damaging multiple targets	720
+														
+ice_hammer	Ice Hammer	melee	ice	one	-30	0	26	90	20	ice_hammer	ice_hammer	28	The user imbues their weapon with elemental ice, before delivering a devastating blow	
+ice_seal	Ice Cutter	ranged	ice	one	-35	0	28	90	20	ice_seal	ice_seal	12	Frozen, sharpened rings are hurled at the target	
+ice_flash	Ice Flash	magic	ice	one	-20	0	20	110	20	ice_flash	ice_flash	10	The user flashfreezes their target, damaging them	
+crystal_spike	Crystal Spike	magic	ice	one	-30	0	26	90	20	crystal_spike	crystal_spike	21	A frozen, crystalline spike is launched at a single target	
+avalanche	Avalanche	magic	ice	wide	-40	-1	30	80	20	avalanche	avalanche	24	A devastating wave of ice and snow rains down on multiple targets	640
+														
+lightning_slices	Lightning Slices	melee	shock	one	-35	0	28	80	30	lightning_slices	lightning_slices	27	The user imbues their weapon with elemental lightning before delivering devastating slashes	
+ball_lightning	Ball Lightning	ranged	shock	one	-40	0	30	70	30	ball_lightning	ball_lightning	16	An orb of lightning is hurled at the target	
+lightning_small	Thunder	magic	shock	one	-25	0	23	90	30	lightning_small	lightning_small	24	Lightning is summoned to strike a single target	720
+chain_lightning	Thunder Chain	magic	shock	one	-35	0	28	80	30	chain_lightning	chain_lightning	33	A chaining bolt of lightning strikes the target	
+thunder_storm	Thunder Storm	magic	shock	wide	-50	-1	32	70	30	thunder_storm	thunder_storm	31	The user summons a terrible, black storm, striking multiple targets	600
+														
+electro_slash	Holy Slash	melee	astral	one	-40	-1	30	80	30	electro_slash	electro_slash	18	The user imbues their attack with divine energy, ignoring all resistances	
+arrows	Holy Arrows	ranged	astral	one	-50	-1	32	80	30	arrows	arrows	24	The user launches arrows forged from light, ignoring all resistances	
+magic_7	Supernova	ranged	astral	wide	-60	-2	34	80	30	6	magic_7	38	The user invokes incredible cosmic power, striking multiple targets for astral damage	
+holy_bolt	Holy Bolt	magic	astral	one	-40	-1	30	80	30	holy_bolt	holy_bolt	16	The user throws a bolt of divine energy, ignoring all resistances	
+shadow_bolt	Ether Burst	magic	astral	wide	-60	-2	34	80	30	shadow_bolt	shadow_bolt	40	This causes a powerful explosion infused with divine energy	640
+magic_1	Spell Disruption	magic	disrupt	wide	-35	-1	0	100	30	10	magic_1	26	Prevents the target from using magic	
+ghosts	Terrorize	magic	terror	wide	-35	-1	0	100	30	ghosts	ghosts	36	Terrorizes the target, causing them to lose a large amount of AP	640
+magic_6	Capture	magic	capture	one	-5	-1	800	200	100	5	magic_6	39	If a monster is defeated with this skill, it will be transported to your prison MODDED	
+multiple_sword_slashes	Astral Blade	melee	astral	one	-50	-10	60	80	30	multiple_sword_slashes	multiple_sword_slashes	24	A skill which can only be used in the Flow state, it delivers a series of blows infused with divine energy	720
+shockwave	Astral Flare	magic	astral	wide	-60	-10	60	80	30	shockwave	shockwave	47	The single most potent holy magic spell in existence, this can only be used in the Flow State	560
+														
+cross_slashes	Parry	melee	solid	one	-20	0	9	100	30	cross_slashes	cross_slashes	20		
+magic_2	Dispel Shield	magic	ether	one	-10	0	0	0	0	1	magic_2	34		
+magic_5	Spell Chanting	magic	ether	one	-10	0	0	0	0	4	magic_5	32		
+whirlpool	whirlpool	ranged	solid	one	-15	0	7	100	30	whirlpool	whirlpool	20	(unused)	
